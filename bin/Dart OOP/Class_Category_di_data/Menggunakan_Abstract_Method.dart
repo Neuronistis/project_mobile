@@ -1,0 +1,7 @@
+import 'Abstract_Method.dart';
+
+void main() {
+  Animal animal = Cat();
+  animal.name = "Puss";
+  animal.run();
+}
