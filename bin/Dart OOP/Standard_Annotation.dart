@@ -4,7 +4,7 @@ class Sample {
     return "Sample";
   }
 
-  @deprecated("Don't use it anymore")
+  @Deprecated("Don't use it anymore")
   void doNotCallMe() {}
 }
 

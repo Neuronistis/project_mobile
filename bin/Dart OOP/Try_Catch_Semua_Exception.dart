@@ -16,7 +16,7 @@ class Validation {
 
 void main() {
   try {
-    Validation.validate("budi", "salah");
+    Validation.validate("fauzan", "salah");
   } on ValidationException catch (exception) {
     print("Error : ${exception.message}");
   } catch (exception) {
